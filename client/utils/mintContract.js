@@ -1,5 +1,5 @@
 import { ethers } from "ethers";
-import contractAbi from "../../blockchain/artifacts/contracts/EpicNFT.sol/EpicNFT.json";
+import contractAbi from "./contractAbi.json";
 
 const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
 // Setup our listener.
